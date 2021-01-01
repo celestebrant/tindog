@@ -82,9 +82,6 @@ p {
     text-align: left;
 }
 
-
-/* Title Image */
-
 .title-image {
     width: 60%;
     transform: rotate(20deg);
@@ -151,10 +148,6 @@ p {
 
 /* Pricing Section */
 
-.card {
-    height: 349px;
-}
-
 .lead {
     margin-bottom: 2rem;
 }
@@ -174,10 +167,6 @@ p {
     font-size: 1.5rem;
 }
 
-/* .pricing-button {
-    position: relative;
-    margin-bottom: 0;
-} */
 
 /* Footer */
 
@@ -211,17 +200,26 @@ p {
 }
 
 @media (max-width: 991px) {
-    #title .container-fluid {
-        text-align: center;
-    }
 
-    .navbar-brand {
-        font-size: 1.7rem;
-    }
-
+    /* Headings */
     .big-heading {
         font-size: 2.7rem;
         margin-bottom: 0;
+    }
+
+    /* Containers */
+    .container-fluid {
+        padding: 7%;
+    }
+
+    /* Navbar */
+    .nav-item {
+        text-align: right;
+    }
+
+    /* Title Section */
+    #title .container-fluid {
+        text-align: center;
     }
 
     .title-image {
@@ -230,10 +228,7 @@ p {
         right: auto;
     }
 
-    .testimonial-text, .section-heading, .price-text {
-        font-size: 2.2rem;
-    }
-
+    /* Pricing Section  */
     .card {
         margin-bottom: 1rem;
     }
